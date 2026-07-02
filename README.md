@@ -23,9 +23,10 @@ A modern Currency Converter web application developed during the People's Inform
 
 ## Screenshots
 
-![Home](images/home.png)
+![Home](Screenshot (28).png
 
-![Conversion](images/conversion.png)
+
+![Conversion](Screenshot (29).png)
 
 ## Author
 
