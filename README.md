@@ -23,7 +23,7 @@ A modern Currency Converter web application developed during the People's Inform
 
 ## Screenshots
 
-Screenshot (28).png
+images/Screenshot (28).png
 
 Screenshot (29).png
 
