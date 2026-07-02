@@ -21,11 +21,6 @@ A modern Currency Converter web application developed during the People's Inform
 - Fetch API
 - ExchangeRate API
 
-## Screenshots
-
-/images/Screenshot(28).20%png
-
-/images/Screenshot(29).20%png
 
 
 ## Author
