@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Converter</title>
+<link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+
+<!-- ================= MAIN CONTAINER ================= -->
+<div class="container">
+
+    <h1>💱 Currency Converter</h1>
+
+    <!-- Amount -->
+    <input type="number" id="amount" placeholder="Enter Amount">
+
+    <!-- Currency Selection -->
+    <div>
+        <select id="fromCurrency">
+          <option value="USD">🇺🇸 USD ($)</option>
+<option value="PKR">🇵🇰 PKR (₨)</option>
+<option value="EUR">🇪🇺 EUR (€)</option>
+<option value="GBP">🇬🇧 GBP (£)</option>
+<option value="JPY">🇯🇵 JPY (¥)</option>
+<option value="INR">🇮🇳 INR (₹)</option>
+<option value="CAD">🇨🇦 CAD (C$)</option>
+<option value="AUD">🇦🇺 AUD (A$)</option>
+<option value="AED">🇦🇪 AED (د.إ)</option>
+<option value="SAR">🇸🇦 SAR (﷼)</option>
+<option value="CNY">🇨🇳 CNY (¥)</option>
+<option value="CHF">🇨🇭 CHF (CHF)</option>
+<option value="TRY">🇹🇷 TRY (₺)</option>
+<option value="KRW">🇰🇷 KRW (₩)</option>
+<option value="SGD">🇸🇬 SGD (S$)</option>
+<option value="MYR">🇲🇾 MYR (RM)</option>
+<option value="THB">🇹🇭 THB (฿)</option>
+<option value="NZD">🇳🇿 NZD (NZ$)</option>
+        </select>
+
+        <!-- Swap Button -->
+        <button class="swap-btn" onclick="swapCurrency()">⇄</button>
+
+        <select id="toCurrency">
+            <option value="USD">🇺🇸 USD ($)</option>
+<option value="PKR">🇵🇰 PKR (₨)</option>
+<option value="EUR">🇪🇺 EUR (€)</option>
+<option value="GBP">🇬🇧 GBP (£)</option>
+<option value="JPY">🇯🇵 JPY (¥)</option>
+<option value="INR">🇮🇳 INR (₹)</option>
+<option value="CAD">🇨🇦 CAD (C$)</option>
+<option value="AUD">🇦🇺 AUD (A$)</option>
+<option value="AED">🇦🇪 AED (د.إ)</option>
+<option value="SAR">🇸🇦 SAR (﷼)</option>
+<option value="CNY">🇨🇳 CNY (¥)</option>
+<option value="CHF">🇨🇭 CHF (CHF)</option>
+<option value="TRY">🇹🇷 TRY (₺)</option>
+<option value="KRW">🇰🇷 KRW (₩)</option>
+<option value="SGD">🇸🇬 SGD (S$)</option>
+<option value="MYR">🇲🇾 MYR (RM)</option>
+<option value="THB">🇹🇭 THB (฿)</option>
+<option value="NZD">🇳🇿 NZD (NZ$)</option>
+        </select>
+    </div>
+
+    <!-- Live Flags -->
+    <div class="flags">
+        From: <span id="fromFlag">🇺🇸</span>
+        ➜
+        To: <span id="toFlag">us</span>
+    </div>
+
+    <!-- Convert Button -->
+    <button class="convert-btn" onclick="convertCurrency()">
+        Convert Currency
+    </button>
+
+    <!-- Result -->
+    <div id="result">Enter amount to convert</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

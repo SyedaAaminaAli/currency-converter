@@ -1,0 +1,103 @@
+/* Page Background */
+        body {
+            margin: 0;
+            font-family:"Poppins",sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Main Card */
+        .container {
+            background: white;
+            padding: 30px;
+            width:90%;
+            max-width:380px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+
+        
+            h1 {
+            color: #06265d;;
+            margin-bottom: 20px;
+        }
+
+        /* Input */
+        input {
+            width: 90%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        /* Dropdowns */
+        select {
+            width: 40%;
+            padding: 10px;
+            margin: 10px 5px;
+            border-radius: 8px;
+        }
+
+        /* Swap Button */
+        .swap-btn {
+            padding: 8px 12px;
+            border-radius: 50%;
+            border: none;
+            background: #667eea;
+            color: white;
+            cursor: pointer;
+        }
+
+        /* Convert Button */
+        .convert-btn {
+            width: 90%;
+            padding: 12px;
+            margin-top: 15px;
+            border: none;
+            border-radius: 8px;
+            background: #28a745;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .convert-btn:hover{
+    background:#1fcf45;
+}
+.swap-btn:hover{
+    background:#7c8be2;
+}
+.convert-btn{
+transition:0.3s;
+}
+input:focus{
+outline:none;
+border-color:#667eea;
+box-shadow:0 0 8px rgba(102,126,234,.4);
+}
+select:focus{
+outline:none;
+border-color:#667eea;
+}
+
+        /* Result */
+        #result {
+            margin-top: 20px;
+            background:#f8f9fa;
+            padding:15px;
+            border-radius:10px;
+            margin-top:20px;
+            font-weight: bold;
+        }
+
+        /* Flags Display */
+        .flags {
+            margin-top: 10px;
+            font-size: 20px;
+        }
+    
