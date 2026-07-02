@@ -23,11 +23,10 @@ A modern Currency Converter web application developed during the People's Inform
 
 ## Screenshots
 
-![Home](Screenshot (28).png
+Screenshot (28).png
 
+Screenshot (29).png
 
-![Conversion](Screenshot (29).png)
 
 ## Author
-
 **Syeda Aamina Ali**
